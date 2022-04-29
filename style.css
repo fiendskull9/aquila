@@ -5,9 +5,9 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(229, 227, 201,0.9), rgba(211,190,167, 0.9));
+    background: linear-gradient(-45deg, rgb(45, 33, 20,0.9), rgba(211,190,167, 0.9));
     background-size: 400% 400%;
-    animation: gradient 12s ease infinite;
+    animation: gradient 8s ease infinite;
     padding-top:35px;
     padding-bottom:35px;
     height:fit-content;
