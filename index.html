@@ -11,38 +11,25 @@
 </head>
 
 <body>
-	<script
-			  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+	<script		  src="https://code.jquery.com/jquery-3.6.0.slim.js"
 			  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
 			  crossorigin="anonymous"></script>
  <script type="text/javascript">
 
 <div class="userName">
-          <div id="worldcontainer" style="width:300px; height:300px" ></div>
+         <script type="text/javascript">
+
 var anim=0;
 function animate_globe(globe)
 {
     $globe = $(globe);
 
-  <script src="globe.js" data-compat="true"></script>
-  <script>
-    var latitude = 47.367347, longitude = 8.550002, height = 200;
     anim+=1;
     var x=( anim*5 ) % 600 - 600;
     $globe.find('.globe-span').each(function(i, span){
         $(span).css({left:x * scales[i]});
 
-    window.Globe.init("wrap.png", 0.005, {
-      animation: true,
-      transparent: true,
-      onRender: function() { console.log("Rendered."); },
-      container: document.getElementById("worldcontainer")
-    });
 
-    //window.Globe.add(latitude, longitude, height, color); 
-  </script>
-
-    </a>
    });
 }
 
@@ -118,9 +105,7 @@ $(function(){make_globe('#jsglobe', '#jsglobe-image', 300);});
     </div>
 <div style="clear:both;">&nbsp;</div>
 	</div>
-	     <a class="profilePicture">
-	<img src="aquila_insta.png" alt="Profile Picture">
-	</a>
+
     <div class="userName">
         AQUILA
     </div>
