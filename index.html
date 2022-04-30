@@ -13,13 +13,13 @@
 <body>
 
  
-          <div id="userName" style="width:300px; height:300px"></div>
+          <div id="worldcontainer" style="width:300px; height:300px" class="userName"></div>
 
   <script src="globe.js" data-compat="true"></script>
   <script>
     var latitude = 47.367347, longitude = 8.550002, height = 200;
 
-    window.Globe.init("aquila_insta.png", 0.005, {
+    window.Globe.init("wrap.png", 0.005, {
       animation: true,
       transparent: true,
       onRender: function() { console.log("Rendered."); },
