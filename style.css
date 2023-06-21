@@ -54,7 +54,7 @@ body {
 
 .userName {
     color: var(--accentColor);
-    font-size: x-large;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
