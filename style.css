@@ -25,7 +25,7 @@ body {
 }
 
 :root {
-    --accentColor: #E0AB9A;
+    --accentColor: #EF8A84;
     --delay: .3s;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .link {
     position: relative;
-    background-color: #EF8A84;
+    background-color: #E0AB9A;
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
