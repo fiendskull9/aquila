@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     height: 100%;
-    font-family: Garamond, serif;
+    font-family: 'Concert One';
 }
 
 body {
@@ -79,11 +79,11 @@ body {
 
 .link {
     position: relative;
-    background-color: #4D8FC3;
+    background-color: #EF8A84;
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     display: block;
     margin-left: 10px;
