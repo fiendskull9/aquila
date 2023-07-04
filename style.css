@@ -40,6 +40,10 @@ body {
     max-width: 500px;
 }
 
+.description img {
+	border-radius: 10%;
+}
+
 .source{
     font-size:small;
     margin-top:50px;
