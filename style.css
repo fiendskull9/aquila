@@ -43,6 +43,8 @@ body {
 .description img {
 	border-radius: 2%;
 	margin-top:10px;
+	max-width: 675px;
+	display: block;
 }
 
 .source{
@@ -50,18 +52,9 @@ body {
     margin-top:50px;
 }
 
-.profilePicture, .profilePicture img {
-    position: relative;
-    width: 130px;
-    height: 130px;
-    display: block;
-    margin: 35px auto 20px;
-    border-radius: 50%;
-}
-
 .userName {
     color: var(--accentColor);
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
@@ -75,6 +68,7 @@ body {
     max-width: 675px;
     width: auto;
     display: block;
+	position: relative;
     margin: 27px auto;
 }
 
