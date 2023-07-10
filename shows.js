@@ -1,8 +1,14 @@
 $(function() {
 		
 	
+$.ajax({
+type: "GET",
+url: "shows.xml",
+dataType: "xml",
+success: function(xmlraw) {
+ //remainder of the code
 
-		let dataraw = $.parseXML(shows.xml); 
+		let dataraw = $.parseXML(xmlraw); 
 	
 		let $xml = $(dataraw);
 	
@@ -34,5 +40,6 @@ $(function() {
 		
 		});
 	
-	
+	}
+});
 });
