@@ -1,10 +1,8 @@
 $(function() {
 		
-	$.get( "shows.xml", function( data ) {
-    let xml = new XMLSerializer().serializeToString(data);
 	
 
-		let dataraw = $.parseXML(xml); 
+		let dataraw = $.parseXML(shows.xml); 
 	
 		let $xml = $(dataraw);
 	
@@ -35,7 +33,6 @@ $(function() {
 			$("#shows" ).append(content);
 		
 		});
-	});
 	
 	
 });
