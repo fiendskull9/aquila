@@ -1,6 +1,6 @@
 $(function() {
 		
-	$.get( "file.xml", function( data ) {
+	$.get( "shows.xml", function( data ) {
     let xml = new XMLSerializer().serializeToString(data);
 	
 
