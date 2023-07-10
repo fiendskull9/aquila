@@ -32,7 +32,7 @@ $(function() {
 				+ `</div>`
 				+ `</div>`;
 			
-			$("#shows" ).html(content);
+			$("#shows" ).append(content);
 		
 		});
 	});
