@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shows>
-    <event>
-         <date>
-		 07/14/2023
-		 </date>
-		 <timestart>
-		 8:30pm
-		 </timestart>
-		 <timeend>
-		 11:00pm
-		 </timeend>
-		 <venue>
-		 Rose Bowl Tavern
-		 </venue>
-		 <location>
-		 Urbana, IL
-		 </location>
-		 <eventlink>
-		 https://www.facebook.com/events/668479095119998/
-		 </eventlink>
-    </event>
+	<event>
+		<date>07/14/2023</date>
+		<timestart>8:30pm</timestart>
+		<timeend>11:00pm</timeend>
+		<venue>Rose Bowl Tavern</venue>
+		<location>Urbana, IL</location>
+		<eventlink>https://www.facebook.com/events/668479095119998/</eventlink>
+	</event>
 </shows>

@@ -1,9 +1,9 @@
-@import url('https://fonts.cdnfonts.com/css/concert-one');
+@import url('https://fonts.cdnfonts.com/css/timeless');
 
 html, body {
     margin: 0;
     height: 100%;
-    font-family: 'Concert One';
+
 }
 
 body {
@@ -28,7 +28,6 @@ body {
 
 :root {
     --accentColor: #EF8A84;
-    --delay: .3s;
 }
 
 .description, .source{
@@ -37,7 +36,9 @@ body {
     margin: 27px auto;
     margin-top:10px;
     width:90%;
-    max-width: 500px;
+    max-width: 675px;
+	font-family: 'timeless', sans-serif;
+	color: #3E3118;
 }
 
 .description img {
@@ -55,6 +56,18 @@ body {
 .userName {
     color: var(--accentColor);
     font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+	margin-bottom: 30px;
+}
+
+.showHeader{
+	    color: var(--accentColor);
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
@@ -95,6 +108,72 @@ body {
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+#show-date {
+	
+    background-color: var(--accentColor);
+    border: solid #E0AB9A 2px;
+    border-radius: 3px;
+
+    padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	z-index:99;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#show-date h1 {
+	font-size: 1.25rem;
+	text-decoration: bold;
+	    font-weight: bold;
+}
+
+#show-info {
+	    background-color: #E0AB9A;
+    border: solid var(--accentColor) 0px;
+    border-radius: 3px;
+
+	margin-top: -5px;
+	margin-bottom: -5px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#shows {
+	color: #3E3118;
+    text-align:center;
+	font-size: 1rem;
+	width: auto;
+    display: block;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    margin: 27px auto;
+    max-width: 675px;
+}
+
+#show .link {
+	font-size: 0.75rem;
+	margin: 0px;
+}
+
+.center-container
+{
+
+    margin: 27px auto;
+    background-color: #E0AB9A;
+    color: var(--accentColor);
+    border: solid var(--accentColor) 0px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+	max-width: 500px;
+	width: auto;
+}
+
 
 @media (hover: hover) {
     .link:hover {
