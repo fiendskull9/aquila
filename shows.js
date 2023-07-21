@@ -41,10 +41,15 @@ $(function() {
 				+ `<br><a class="link" href="`+eventlink+`" target="_blank"><i class="fab fa-facebook">&nbsp;</i>Event Link</a>`
 				+ `</div>`
 				+ `	</div>`;
-			
-			$("#shows").append(content);
-			
-		console.log(showdate);
+				if (content.includes("Invalid")) {
+					$("#shows").append(`<div class="row" id="show"><div class="col" id="show-info">TBA</div></div>`);
+					
+				} else {
+					
+					$("#shows").append(content);
+				}
+
+
 		});
 		
 		};
