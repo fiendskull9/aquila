@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shows>
-<event>
-		<date></date>
-<timestart></timestart>
-<timeend></timeend>
-<venue></venue>
-<location></location>
-<eventlink></eventlink>
-</event>
-
+	<event>
+		<date>09/23/2023</date>
+		<timestart></timestart>	
+		<timeend></timeend>
+		<venue>TBA</venue>
+		<location>Urbana, IL</location>
+		<eventlink>https://theaquilaflys.xyz</eventlink>
+	</event>
 </shows>
